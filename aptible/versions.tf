@@ -1,8 +1,8 @@
 terraform {
   required_providers {
-    heroku = {
-      source  = "heroku/heroku"
-      version = "~> 4.6.0"
+    aptible = {
+      source = "aptible/aptible"
+      version = "0.1.6"
     }
   }
 
